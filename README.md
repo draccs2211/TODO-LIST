@@ -49,6 +49,8 @@ Open your browser at: http://127.0.0.1:5000
 csharp
 Copy
 Edit
+📂 Folder Structure
+
 TODO-LIST/
 ├── app.py
 ├── requirements.txt
@@ -59,7 +61,9 @@ TODO-LIST/
 │   └── base.html
 ├── static/
 │   └── styles.css
-│   └── styles.scss<img width="1827" height="682" alt="Screenshot 2025-07-28 143547" src="https://github.com/user-attachments/assets/4652413f-e614-485c-9c4a-f3f6c2e9fffd" />
+│   └── styles.scss
+
+![Screenshot](https://github.com/user-attachments/assets/4652413f-e614-485c-9c4a-f3f6c2e9fffd)
 
 ## 🙋‍♂️ Author
 
