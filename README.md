@@ -1,18 +1,18 @@
 # ✅ TODO List Web App
 
-A simple yet powerful **To-Do List app** built using **Python Flask**, **HTML**, **CSS**, and **SQLite**.  
+A simple yet powerful To-Do List app built using **Python Flask**, **HTML**, **CSS**, and **SQLite**.  
 Manage your daily tasks — Add, Edit, Delete tasks all in one place.
 
 ---
 
 ## 🚀 Features
 
-- 📝 Add new tasks
-- ✅ Mark tasks as completed
-- 🔁 Edit existing tasks
-- ❌ Delete tasks
-- 💾 Data stored using SQLite
-- 🎨 Styled with CSS & SCSS
+- 📝 Add new tasks  
+- ✅ Mark tasks as completed  
+- 🔁 Edit existing tasks  
+- ❌ Delete tasks  
+- 💾 Data stored using SQLite  
+- 🎨 Styled with CSS & SCSS  
 
 ---
 
@@ -29,16 +29,26 @@ Manage your daily tasks — Add, Edit, Delete tasks all in one place.
 
 ## 🧪 Setup Instructions
 
-### 1. Clone the repo
+1. Clone the repo:
 
-```bash
-git clone https://github.com/draccs2211/TODO-LIST.git
-cd TODO-LIST
-2.
+   ```bash
+   git clone https://github.com/draccs2211/TODO-LIST.git
+   cd TODO-LIST
+Create and activate a virtual environment:
+
+bash
+Copy
+Edit
 python -m venv venv
-venv\Scripts\activate      # For Windows
+venv\Scripts\activate  # For Windows
+Install dependencies:
+
+bash
+Copy
+Edit
 pip install -r requirements.txt
-4. Run the app
+Run the app:
+
 bash
 Copy
 Edit
@@ -49,8 +59,6 @@ Open your browser at: http://127.0.0.1:5000
 csharp
 Copy
 Edit
-📂 Folder Structure
-
 TODO-LIST/
 ├── app.py
 ├── requirements.txt
@@ -60,14 +68,11 @@ TODO-LIST/
 ├── templates/
 │   └── base.html
 ├── static/
-│   └── styles.css
+│   ├── styles.css
 │   └── styles.scss
-
-![Screenshot](https://github.com/user-attachments/assets/4652413f-e614-485c-9c4a-f3f6c2e9fffd)
-
-## 🙋‍♂️ Author
-
-**Divyansh Maurya**  
-GitHub: [@draccs2211](https://github.com/draccs2211)
+<img width="1827" height="682" alt="Screenshot 2025-07-28 143547" src="https://github.com/user-attachments/assets/ccfc84ea-e496-48a7-8d61-c02706257002" />
 
 
+🙋‍♂️ Author
+Divyansh Maurya
+GitHub: @draccs2211
