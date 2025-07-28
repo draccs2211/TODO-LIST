@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block head %}
+<title>TASK SMASHER</title>
+{% endblock %}
+{% block body %}
+    <div class="container">
+    <h1>TASK SMASHERS</h1>
+    {%if tasks | length<1 %}
+    <h3>THERE ARE NO TASK...CREATE ONE HERE</h3>
+    {% else %}
+    <TAble>
+        <TR>
+            <TH>TASK</TH>
+            <TH>ADDED</TH>
+            <TH>ACTIONS</TH>
+        </TR>
+        {% for task in tasks%}
+            <TR>
+                <TD>
+                    {{task.content}}
+                </TD>
+                <TD>{{task.created.strftime("%y-%m-%d")}}</TD>
+                <TD>
+                    <a href="/delete/{{task.id}}">DELETE</a>
+                    <a href="/edit/{{task.id}}">EDIT</a>
+                </TD>
+            </TR>
+        {% endfor %}
+    </TAble>
+    {% endif %}
+    <FORM ACTION="/" method="POST">
+        <INPUT TYPE="text" NAME="content" id="content">
+        <input type="submit" value="ADD TASK" id="butt_id">
+
+        
+    </FORM>
+   </div>
+{% endblock %}

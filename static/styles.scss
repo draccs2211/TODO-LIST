@@ -1,0 +1,76 @@
+// color variables
+$primary-color: rgb(228, 25, 184);
+$accent-color: rgb(109, 183, 145);
+$success-color: rgb(61, 236, 216);
+$error-color: rgb(20, 1, 1);
+
+body {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: wheat;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: aliceblue;
+  text-align: center;
+  box-shadow: 0 0 10px $primary-color;
+  border-radius: 10px;
+
+  h1 {
+    color: $success-color;
+  }
+
+  h3 {
+    color: olivedrab;
+  }
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+
+  th,
+  td {
+    padding: 10px;
+    border: 1px solid #ccc; // <-- fixed 'bottom' typo
+  }
+
+  th {
+    background-color: #fff;
+    color: black;
+  }
+}
+a {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 5px;
+  border-radius: 5px; // ✅ Fixed
+  background-color: $primary-color; // optional if you want colored buttons
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: $success-color;
+  }
+}
+
+input{
+  margin: 5px;
+  padding: 10px;
+  border:solid 1px;
+  border-radius: 5px;
+}
+#butt_id{
+  background-color: $error-color;
+  color: #ccc;
+  cursor: pointer;
+  &:hover{
+    background-color: $accent-color;
+  }
+}

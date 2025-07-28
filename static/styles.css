@@ -1,0 +1,69 @@
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: wheat;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: aliceblue;
+  text-align: center;
+  box-shadow: 0 0 10px rgb(228, 25, 184);
+  border-radius: 10px;
+}
+.container h1 {
+  color: rgb(61, 236, 216);
+}
+.container h3 {
+  color: olivedrab;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+table th {
+  background-color: #fff;
+  color: black;
+}
+
+a {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: rgb(228, 25, 184);
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+a:hover {
+  background-color: rgb(61, 236, 216);
+}
+
+input {
+  margin: 5px;
+  padding: 10px;
+  border: solid 1px;
+  border-radius: 5px;
+}
+
+#butt_id {
+  background-color: rgb(20, 1, 1);
+  color: #ccc;
+  cursor: pointer;
+}
+#butt_id:hover {
+  background-color: rgb(109, 183, 145);
+}
+
+/*# sourceMappingURL=styles.css.map */
